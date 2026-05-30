@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1E3A8A;
+  --secondary: #10B981;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.performance-ee { @apply bg-green-600 text-white; }
+.performance-me { @apply bg-blue-600 text-white; }
+.performance-ae { @apply bg-yellow-500 text-white; }
+.performance-be { @apply bg-red-600 text-white; }
